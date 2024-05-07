@@ -2,8 +2,6 @@ import { Routes, Route } from "react-router-dom";
 // ? -----------------------------------------------------COMPONENTS
 
 import LandingPage from "./components/landingPage/LandingPage";
-
-// ? -----------------------------------------------------STYLES
 import "./App.css";
 import Contactos from "./components/contactos/Contactos";
 import Experiencia from "./components/experiencia/Experiencia";

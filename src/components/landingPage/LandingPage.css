@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg');
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'Anonymous Pro', sans-serif;
+    color: rgb(224, 218, 218);
+}
+  
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilos del circulo */
+  
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: blue; 
+    border-radius: 50%;
+    position: absolute;
+    animation: rotateColor 5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    text-transform: uppercase; 
+}
+
+.name-overlay {
+    position: absolute;
+    color: white; 
+}
+
+/* Estilos de animación */
+@keyframes rotateColor {
+    0% {
+        background-color: blue; 
+        transform: rotate(0deg);
+    }
+    20% {
+        background-color: red; 
+    }
+    40% {
+        background-color: pink; 
+    }
+    60% {
+        background-color: orange; 
+    }
+    80% {
+        background-color: green; 
+    }
+    100% {
+        background-color: purple; 
+        transform: rotate(360deg);
+    }
+}
+
+/* Estilos para el tooltip */
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+}
+
+.left:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Estilos para el rectangulo */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.rectangle {
+    background-color: #da5a81;
+    padding: 20px;
+    text-align: center;
+}
+  
+.rectangle h2 {
+    font-family: 'Adriana', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+  
+.description {
+    font-size: 18px;
+}
+  
+/* Estilos para el botón */
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #190019, #2b124c);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+.button:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    color: #fbe4d8;
+}
+
+
+
+
+  
+  
+  
+   
+  
+  
+   
+  
+  
