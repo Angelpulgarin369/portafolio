@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 import './LandingPage.css';
 
 interface TooltipProps {
@@ -53,12 +54,14 @@ const Rectangle: React.FC = () => {
         Con cada línea de código, construyo mi camino hacia el futuro.
         Bienvenido a mi mundo digital.
       </p>
-      <a href="#" className="button">
+      {/* Utiliza Link en lugar de <a> para navegar */}
+      <Link to="/presentacion" className="button">
         Ingresar
-      </a>
+      </Link>
     </div>
   );
 };
 
 export default PaginaLanding;
+
   
