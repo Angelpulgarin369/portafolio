@@ -1,4 +1,5 @@
 /* Presentacion.css */
+
 .presentacion {
     padding: 20px;
 }
@@ -30,11 +31,9 @@
     max-width: 600px; /* Ancho máximo del banner */
     width: 100%;
     text-align: center;
-}
-
-.banner h1 {
-    font-size: 24px;
-    margin-bottom: 20px; /* Espacio entre el título y el texto */
+    perspective: 1000px; /* Define la perspectiva para la animación 3D */
+    background-color: transparent; /* Fondo transparente para el banner */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el banner */
 }
 
 .banner-texto1 {
@@ -45,4 +44,49 @@
 .banner-texto2 {
     background-color: #faf0e6; /* Color pergamino del segundo banner */
     color: #2f2f3f; /* Color de texto del segundo banner */
+    overflow-wrap: break-word; /* Permite que las palabras largas se ajusten dentro del contenedor */
+    word-wrap: break-word; /* Permite que las palabras largas se ajusten dentro del contenedor */
 }
+
+/* Agrega la animación de rebote a las letras del texto 1 */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-7.5px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 1.5s infinite;
+  }
+
+/* Agregar estilos a los iconos */
+.icon {
+    font-size: 36px; /* Tamaño de fuente más grande para los iconos */
+    color: #5e17eb; /* Color personalizado */
+  }
+  
+  /* Estilos específicos para cada tipo de icono */
+  .up-arrow {
+    margin-right: 10px; /* Espacio a la derecha para separar los iconos */
+  }
+  
+  .left-arrow {
+    margin: 0 10px; /* Espacio a ambos lados para separar los iconos */
+  }
+  
+  .right-arrow {
+    margin-left: 10px; /* Espacio a la izquierda para separar los iconos */
+  }
+  
+
+
+
+
+
+  
