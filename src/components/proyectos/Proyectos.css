@@ -1,0 +1,129 @@
+.proyectos {
+    padding: 20px;
+  }
+  
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner-center {
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #8d396c;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .point-left,
+  .point-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .banner-left,
+  .banner-right {
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .banner-left {
+    background-color: #4c79af; 
+  }
+  
+  .banner-right {
+    background-color: #007bff;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #190019, #2b124c);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    color: #fbe4d8;
+  }
+  
+  .technologies {
+    color: #e05d83;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .proyectos-icon {
+    font-size: 30px;
+    color: #d21d1d;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  .animated-title {
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes bounceIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    70% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  /* Estilos de los iconos */
+  .icon {
+    font-size: 30px; 
+    color: #5e17eb; 
+  }
+  
+  /* Estilos específicos para cada tipo de icono */
+  .up-arrow {
+    margin-right: 10px; 
+  }
+  
+  .left-arrow {
+    margin: 0 10px; 
+  }
+  
+  .right-arrow {
+    margin-left: 10px; 
+  }
+  
+   

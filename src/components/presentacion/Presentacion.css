@@ -1,5 +1,3 @@
-/* Presentacion.css */
-
 .presentacion {
     padding: 20px;
 }
@@ -67,17 +65,17 @@
 
 /* Agregar estilos a los iconos */
 .icon {
-    font-size: 36px; /* Tamaño de fuente más grande para los iconos */
+    font-size: 45px; /* Tamaño de fuente más grande para los iconos */
     color: #5e17eb; /* Color personalizado */
   }
   
   /* Estilos específicos para cada tipo de icono */
   .up-arrow {
-    margin-right: 10px; /* Espacio a la derecha para separar los iconos */
+    margin-right: 35px; /* Espacio a la derecha para separar los iconos */
   }
   
   .left-arrow {
-    margin: 0 10px; /* Espacio a ambos lados para separar los iconos */
+    margin: 0 35px; /* Espacio a ambos lados para separar los iconos */
   }
   
   .right-arrow {

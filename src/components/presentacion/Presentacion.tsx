@@ -1,4 +1,3 @@
-// Presentacion.jsx
 import React, { useState } from 'react';
 import { BsArrowUpCircleFill, BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom'; 
