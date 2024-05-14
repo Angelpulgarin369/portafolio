@@ -1,0 +1,149 @@
+.experiencia-tecnica {
+    padding: 20px;
+}
+
+/* Título de Experiencia y Herramientas */
+.experiencia-title {
+    font-family: 'TAN Headline', sans-serif;
+    color: #e01616; /* Tono más oscuro para un mejor contraste */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Estilos para "Experiencia" */
+.experiencia-subtitle-experiencia {
+    font-family: 'TAN Headline', sans-serif;
+    color: #d91212; /* Color para "Experiencia" */
+    text-align: center;
+    font-size: 30px; /* Tamaño de fuente más pequeño */
+}
+
+/* Estilos para "Herramientas" */
+.experiencia-subtitle-herramientas {
+    font-family: 'TAN Headline', sans-serif;
+    color: #d67777; /* Color para "Herramientas" */
+    text-align: center;
+    font-size: 35px; /* Tamaño de fuente más pequeño */
+}
+
+
+/* Estilo de letras para "Experiencia" */
+.experiencia {
+    font-family: 'TAN Headline', sans-serif;
+    color: #000; /* Color personalizado */
+}
+
+/* Estilo de letras para "Y Herramientas" */
+.herramientas {
+    font-family: 'Garet', sans-serif;
+    color: #5e17eb; /* Otro color personalizado */
+}
+
+/* Contenedor de Habilidades */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre elementos de habilidad */
+}
+
+/* Estilos para cada habilidad */
+.skill-item {
+    width: 48%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 0.3s ease; /* Mejora la transición al pasar el mouse */
+}
+
+.skill-item:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Sombra mejorada al pasar el mouse */
+}
+
+/* Icono de habilidad */
+.skill-icon {
+    font-size: 48px;
+    color: #333; /* Color consistente con el título */
+    margin: 20px auto; /* Centro del icono dentro del elemento de habilidad */
+    display: block;
+}
+
+/* Descripción de habilidad */
+.skill-description {
+    padding: 20px;
+}
+
+/* Título de habilidad */
+.skill-title {
+    font-size: 18px; /* Tamaño de título reducido para una mejor jerarquía */
+    color: #fff;
+    background-color: #5e17eb; /* Color de marca para títulos de habilidades */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Texto de habilidad */
+.skill-text {
+    font-size: 16px; /* Tamaño de texto más pequeño para una mejor legibilidad */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Botón de habilidad */
+.skill-button {
+    display: block;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #190019, #2b124c);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.skill-button:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+    color: #fbe4d8;
+}
+
+/* Media Queries (Opcional) */
+@media (max-width: 768px) {
+    .skill-item {
+        width: 100%;
+    }
+}
+
+/* Estilos para los iconos de navegación */
+.navigation-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre los iconos y el título */
+}
+
+.navigation-icon {
+    font-size: 36px;
+    color: #5e17eb; /* Color consistente con el título */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transición suave del color al pasar el mouse */
+}
+
+.navigation-icon:hover {
+    color: #5e17eb; /* Cambio de color al pasar el mouse */
+}
+
+
+
+  
+  
+  
+  

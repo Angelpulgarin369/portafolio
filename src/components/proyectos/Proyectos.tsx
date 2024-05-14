@@ -10,28 +10,23 @@ const Proyectos = () => {
   const navigate = useNavigate();
 
   const handleRentifyClick = () => {
-    
     navigate('/rentify');
   };
 
   const handleDriversClick = () => {
-    
     navigate('/drivers');
   };
 
   const goToInicio = () => {
-    
     navigate('/');
   };
 
   const goBack = () => {
-    
-    navigate(-1);
+    navigate('/Presentacion'); // Corregido: ahora va a Presentacion.tsx
   };
 
   const goForward = () => {
-    
-    navigate('/ExperienciaTecnica');
+    navigate('/ExperienciaTecnica'); // Corregido: ahora va a ExperienciaTecnica.tsx
   };
 
   return (
@@ -93,6 +88,7 @@ const Proyectos = () => {
 };
 
 export default Proyectos;
+
 
 
 
